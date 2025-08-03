@@ -5,19 +5,19 @@ import { motion, AnimatePresence } from "framer-motion";
 const Gallery = () => {
     const galleryItems = [
         {
-            image: "src/assets/product1.jpg",
+            image: "../../public/product1.jpg",
             text: "Сыворотка Luminskin для лица",
         },
         {
-            image: "src/assets/product2.jpg",
+            image: "../../public/product2.jpg",
             text: "Спортивное питание",
         },
         {
-            image: "src/assets/product3.jpg",
+            image: "../../public/product3.jpg",
             text: "Сыворотка Blossom+ для питания корней волос",
         },
         {
-            image: "src/assets/product4.jpg",
+            image: "../../public/product4.jpg",
             text: "Прочность, эластичность и упругость кожи, костей, сухожилий, хрящей, связок и других тканей",
         }
     ];
