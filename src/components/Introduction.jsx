@@ -18,7 +18,7 @@ const Introduction = ({ partnershipUrl, telegramUrl }) => {
                 <div className="flex flex-col sm:flex-row items-center w-full">
                     <img
                         alt="avatar"
-                        src="/avatar.jpg"
+                        src="./avatar.jpg"
                         className="sm:h-16 sm:w-16 w-24 h-24 rounded-full shadow-lg shadow-background-secondary mb-2 sm:mb-0"
                     />
                     <div className="flex flex-col items-center sm:items-start sm:ml-4 w-full">
