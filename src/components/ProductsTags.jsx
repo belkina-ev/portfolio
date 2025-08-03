@@ -18,9 +18,9 @@ const ProductsTags = () => {
         <div id="productTagsSection" className="flex flex-col justify-start w-full">
             <div className="text-faint text-xs font-extrabold uppercase">Продукты</div>
             <div className="flex flex-wrap mt-4 gap-1.5">
-                {tags.map((product, idx) => (
+                {tags.map((product, idxx) => (
                     <div
-                        key={idx}
+                        key={idxx}
                         className="flex items-center gap-[5px] py-1 px-1.5 text-tertiary font-medium text-xs
                         bg-background-tertiary rounded-md border border-background-secondary"
                     >
