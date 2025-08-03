@@ -5,19 +5,19 @@ import { motion, AnimatePresence } from "framer-motion";
 const Gallery = () => {
     const galleryItems = [
         {
-            image: "/product1.jpg",
+            image: "./product1.jpg",
             text: "Сыворотка Luminskin для лица",
         },
         {
-            image: "/product2.jpg",
+            image: "./product2.jpg",
             text: "Спортивное питание",
         },
         {
-            image: "/product3.jpg",
+            image: "./product3.jpg",
             text: "Сыворотка Blossom+ для питания корней волос",
         },
         {
-            image: "/product4.jpg",
+            image: "./product4.jpg",
             text: "Прочность, эластичность и упругость кожи, костей, сухожилий, хрящей, связок и других тканей",
         }
     ];
